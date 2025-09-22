@@ -33,7 +33,7 @@ fun init(ctx: &mut TxContext){
         fee: 1_000_000_00,
         addresses: empty(),
         balance: zero<SUI>(),
-        blobs: empty()
+        blobs:empty(),
     };
 
     transfer::share_object(gallery);
